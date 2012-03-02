@@ -8,9 +8,8 @@ except:
     pass
 
 setup(name='django-subview',
-    version='0.1',
-    py_modules=['urls', 'views'],
-    packages=['templatetags'],
+    version='0.1.1',
+    packages=['subview'],
     author='Benjamin Roth',
     author_email='brstgt@gmail.com',
     url='https://github.com/brstgt',

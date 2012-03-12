@@ -8,8 +8,8 @@ except:
     pass
 
 setup(name='django-subview',
-    version='0.1.1',
-    packages=['subview'],
+    version='0.1.2',
+    packages=['subview', 'subview.templatetags'],
     author='Benjamin Roth',
     author_email='brstgt@gmail.com',
     url='https://github.com/brstgt',
@@ -17,7 +17,7 @@ setup(name='django-subview',
     long_description=LONG_DESCRIPTION,
     platforms=['any'],
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 1 - Planning',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
